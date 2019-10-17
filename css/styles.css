@@ -2,17 +2,19 @@ body {
     background-color: #DCFFFF;
 }
 h1 {
-    text-decoration: blue double underline overline;
+    text-decoration: black double underline overline;
     text-align: center;
     background-color: #BEFFFF;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
+    color: blue;
 }
 p {
     text-align: center;
 }
 h2 {
     text-align: center;
+    color: blue;
 }
 ul {
     text-align: center;
@@ -21,4 +23,8 @@ ul {
 }
 h3 {
     text-align: center;
+    color: blue;
+}
+h3:hover {
+    color: red;
 }
