@@ -24,6 +24,9 @@ body {
 .side-nav a:hover {
     color: #f1f1f1;
 }
+#tC {
+    margin-top: 250px;
+}
 .main {
     margin-left: 160px;
     padding: 0px 10px;
