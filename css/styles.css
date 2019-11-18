@@ -1,5 +1,8 @@
 body {
     background-image: url("https://w.wallhaven.cc/full/45/wallhaven-4582l8.jpg");  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 .side-nav {
     height: 100%;
@@ -24,51 +27,31 @@ body {
 .side-nav a:hover {
     color: #f1f1f1;
 }
+
 #tC {
     margin-top: 250px;
+}
+.home-page {
+    margin-left: 160px;
+    padding: 0px 10px;
+    margin-top: 50px;
+    text-align: center;
 }
 .main {
     margin-left: 160px;
     padding: 0px 10px;
+    margin-top: 50px;
+    display: none;
 }
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-
-/* body {
-    background-image: url("https://w.wallhaven.cc/full/43/wallhaven-43jlyd.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-h1 {
-    text-decoration: black double underline overline;
-    text-align: center;
-    background-color: #BEFFFF;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    color: blue;
-}
-p {
-    text-align: center;
-}
-h2 {
-    text-align: center;
-    color: blue;
-}
-ul {
-
-    text-align: center;
-    list-style-type: none;
-    /* overflow: hidden; */
-}
-h3 {
-    text-align: center;
-    color: blue;
-}
-h3:hover {
-    color: red;
-}
-ul li a:hover {
-    color: red;
+/* h1 {
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    margin-top: 50%;
 } */
+.active {
+    color: #f1f1f1;
+}
