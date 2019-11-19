@@ -1,3 +1,29 @@
+/* body {
+
+    background-image: url("https://w.wallhaven.cc/full/45/wallhaven-4582l8.jpg"), url("https://w.wallhaven.cc/full/95/wallhaven-95e3rk.jpg"), url("https://w.wallhaven.cc/full/42/wallhaven-423gy9.jpg");
+} */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+.bg-text {
+    font-weight: bold;
+    font-size: 80px;
+    position: fixed; 
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    opacity: 0.3;
+  }
 .side-nav {
     height: 100%;
     width: 200px;
@@ -31,7 +57,7 @@ h2 {
     font-family: 'Lato', sans-serif;
 }
 h2:hover {
-    color: white;
+    
 }
 hr {
     border-top: 2px solid red;
@@ -47,7 +73,6 @@ hr {
 
 }
 .main {
-    background-image: url("img1.jpg");
     margin-left: 160px;
     padding: 0px 10px;
     margin-top: 50px;
