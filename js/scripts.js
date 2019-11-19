@@ -2,7 +2,6 @@ $(document).ready(function() {
     $('#about-link').click(function() {
         $('#about-link').slideUp().slideDown();
         $('#about-link').css('color', 'white');
-        // $('.main').show();  
       
     });
 
@@ -30,3 +29,4 @@ $(document).ready(function() {
         $('#boho').slideUp().slideDown();
     });
 });
+
