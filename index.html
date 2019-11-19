@@ -26,9 +26,30 @@
           </div>
           <div id="accomodation">
               <h3>Accomodation</h3>
+              
           </div>
           <div id="gallery">
               <h3>Gallery</h3>
+              <P>Click on an image to expand</P>
+              <div class="row">
+                  <div class="column">
+                    <img src="https://w.wallhaven.cc/full/r7/wallhaven-r7dgr1.jpg"  class="img-thumbnail" alt="Room A" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                    <img src="https://w.wallhaven.cc/full/0q/wallhaven-0ql6ld.jpg" class="img-thumbnail" alt="Room B" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                    <img src="https://w.wallhaven.cc/full/n6/wallhaven-n673ww.jpg" class="img-thumbnail" alt="Room C" onclick="myFunction(this);">
+                  </div>
+                  <div class="column">
+                    <img src="https://w.wallhaven.cc/full/0q/wallhaven-0qg76d.jpg" class="img-thumbnail" alt="Room D" onclick="myFunction(this);">
+                  </div>
+                </div>
+                <div class="container container2">
+                    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                    <img id="expandedImg" style="width:100%">
+                    <div id="imgtext"></div>
+                </div>
           </div>
           <div id="termsAndConditions">
               <h3>T&C's</h3>
