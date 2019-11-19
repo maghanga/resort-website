@@ -1,42 +1,32 @@
 $(document).ready(function() {
     $('#about-link').click(function() {
-        $('#about-link').slideUp();
-        $('.main').show();  
-        $('#accomodation-link').show(); 
-        $('#gallery-link').show(); 
-        $('#book-link').show(); 
-        $('#tC').show();
+        $('#about-link').slideUp().slideDown();
+        $('#about-link').css('color', 'white');
+        // $('.main').show();  
+      
     });
 
     $('#accomodation-link').click(function() {
-       $('#accomodation-link').slideUp(); 
-       $('#about-link').show(); 
-       $('#gallery-link').show(); 
-       $('#book-link').show(); 
-       $('#tC').show(); 
+       $('#accomodation-link').slideUp().slideDown();
+       $('#accomodation-link').css('color', 'white');
     });
 
     $('#gallery-link').click(function() {
-        $('#gallery-link').slideUp();
-        $('#accomodation-link').show(); 
-        $('#about-link').show(); 
-        $('#book-link').show(); 
-        $('#tC').show();
+        $('#gallery-link').slideUp().slideDown();
+        $('#gallery-link').css('color', 'white');
     });
 
     $('#book-link').click(function() {
-        $('#book-link').slideUp();
-        $('#accomodation-link').show(); 
-        $('#gallery-link').show(); 
-        $('#about-link').show(); 
-        $('#tC').show();
+        $('#book-link').slideUp().slideDown();
+        $('#book-link').css('color', 'white');
     });
 
     $('#tC').click(function() {
-        $('#tC').slideUp();
-        $('#accomodation-link').show(); 
-        $('#gallery-link').show(); 
-        $('#book-link').show(); 
-        $('#about-link').show();
+        $('#tC').slideUp().slideDown();
+        $('#tC').css('color', 'white');
+    });
+
+    $('#boho').click(function() {
+        $('#boho').slideUp().slideDown();
     });
 });
