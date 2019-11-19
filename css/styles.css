@@ -29,9 +29,19 @@ body, html {
 .side-nav a:hover {
     color: #f1f1f1;
 }
+@keyframes bounce { 
+    0% { transform: translateY(0); }
+    100% { transform: translateY(38px); }
+  }
+  #boho {
+    animation: bounce 0.8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
 h1 {
     text-align: center;
     font-size: 50px;
+    font-weight: 500%;
 }
 h2 {
     padding: 6px 8px 6px 16px;
@@ -139,8 +149,8 @@ p {
     overflow: hidden;
 }
 .container3 {
-    border: 2px solid #ccc;
-    background-color: #eee;
+    border: 2px solid #ff746b;
+    background-color: #ffb7b2;
     border-radius: 5px;
     padding: 16px;
     margin: 16px 0;
