@@ -37,6 +37,3 @@ function myFunction(imgs) {
     imgText.innerHTML = imgs.alt;
     expandImg.parentElement.style.display = "block";
 }
-var acc = document.getElementsByClassName("accordion");
-var i;
-
