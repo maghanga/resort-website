@@ -103,7 +103,7 @@ p {
 #imgtext {
     position: absolute;
     bottom: 15px;
-    left: 15px;
+    left: 20px;
     color: white;
     font-size: 20px;
 }
@@ -114,4 +114,25 @@ p {
     color: white;
     font-size: 35px;
     cursor: pointer;
+}
+.accordion {
+    background-color: #ff746b;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+.active, .accordion:hover {
+    background-color: #ffb7b2;
+    color: black;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    /* display: none; */
+    overflow: hidden;
 }
